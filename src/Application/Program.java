@@ -1,10 +1,10 @@
 package Application;
 
+import Board_layer.Board;
 import Board_layer.Position;
 
 public class Program {
     public static void main(String[] args) {
-        Position position = new Position(3,5);
-        System.out.println(position);
+        Board chess_board = new Board(8,8);
     }
 }
